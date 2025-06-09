@@ -1,3 +1,8 @@
+:root{
+    --primary-color:#7698bd;
+    --secandary-color: #ffe4c4;
+    
+}
 body{
    background-image: url('../src/assets/Background.jpg');
     background-repeat: no-repeat;
