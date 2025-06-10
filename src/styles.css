@@ -4,7 +4,9 @@
     
 }
 body{
-   background-image: url('../src/assets/Background.jpg');
+   background-image: url('../src/assets/HomeBackground.jpg');
+     filter: brightness(100%);
+
     background-repeat: no-repeat;
     background-size: cover;
 }

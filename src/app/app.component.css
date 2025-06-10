@@ -1,0 +1,24 @@
+.home{
+    background-color: black;
+    height: 100vh;
+}
+span , h1{
+    color: transparent;
+    background-image: url(../assets/animated.avif);
+    background-size: 200%;
+    background-position: 0 50%;
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    animation: animateBackground 5s infinite alternate linear;
+}
+
+@keyframes animateBackground {
+    0% {
+        background-position: 0 50%;
+    }
+    100% {
+        background-position: 100% 50%;
+    }
+}
+

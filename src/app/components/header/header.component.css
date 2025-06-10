@@ -19,7 +19,7 @@ button:hover {
 }
 
 .navbar {
-    animation: PushDown 1.5s ease-in-out forwards;
+    animation: PushDown 2.5s ease-in-out forwards;
 }
 
 @keyframes PushDown {
