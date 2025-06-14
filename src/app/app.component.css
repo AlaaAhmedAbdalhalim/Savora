@@ -1,6 +1,17 @@
+.Container{
+
+   background-image: url('../../src/assets/Background.jpg');
+    filter: brightness(100%);
+    background-repeat: no-repeat;
+    background-size: cover;
+         font-family: "Edu NSW ACT Hand Pre", cursive;
+
+
+}
 .home{
     background-color: black;
     height: 100vh;
+
 }
 span , h1{
     color: transparent;
@@ -13,6 +24,40 @@ span , h1{
     animation: animateBackground 5s infinite alternate linear;
 }
 
+.images{
+   
+    z-index: 10;
+}
+.eggImage{
+ position: absolute;
+    top: 32rem;
+    right: 20rem;
+    height: 30%;
+}
+
+.pancakesImage{
+    position: absolute;
+    top: 36rem;
+    right: 37rem;
+    height: 30%;
+}
+.pizzaImage{
+     position: absolute;
+    top: 32rem;
+    right: 54rem;
+    height: 30%;
+}
+.cakeImage{
+     position: absolute;
+    top: 36rem;
+    right: 71rem;
+    height: 30%;
+}
+img{
+ 
+     width: 15%;
+    height: 100%;
+}
 @keyframes animateBackground {
     0% {
         background-position: 0 50%;

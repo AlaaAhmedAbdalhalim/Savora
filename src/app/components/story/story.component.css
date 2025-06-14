@@ -1,0 +1,14 @@
+.story
+{
+    background-color: #313131;
+    height: 70vh;
+     font-family: "Edu NSW ACT Hand Pre", cursive;
+
+}
+.pt-5{
+    padding-top: 18rem !important;
+    padding-left: 5rem !important;
+    padding-right: 5rem !important;
+    line-height: 250%;
+}
+
