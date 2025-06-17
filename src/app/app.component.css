@@ -5,8 +5,6 @@
     background-repeat: no-repeat;
     background-size: cover;
          font-family: "Edu NSW ACT Hand Pre", cursive;
-
-
 }
 .home{
     background-color: black;
@@ -25,45 +23,38 @@ span , h1{
 }
 
 .images{
-   
+   position: relative;
     z-index: 10;
-}
-.eggImage{
- position: absolute;
-    top: 32rem;
-    right: 20rem;
-    height: 30%;
-}
+margin-top: -10rem;
+margin-left: 18rem;
 
-.pancakesImage{
-    position: absolute;
-    top: 36rem;
-    right: 37rem;
-    height: 30%;
+    }
+    .images img {
+    height: 80%;
+    width: 20%;
+    padding-right: 1.5rem;    
 }
-.pizzaImage{
-     position: absolute;
-    top: 32rem;
-    right: 54rem;
-    height: 30%;
-}
-.cakeImage{
-     position: absolute;
-    top: 36rem;
-    right: 71rem;
-    height: 30%;
-}
-img{
+ .pancakesImage , .cakeImage
+ {
+    margin-top: -8rem;
+ }
+
  
-     width: 15%;
-    height: 100%;
-}
-@keyframes animateBackground {
-    0% {
-        background-position: 0 50%;
-    }
-    100% {
-        background-position: 100% 50%;
-    }
-}
+ @media (min-width:426px) and (max-width:1024px) {
+    .images{
+ 
+margin-top: -3rem;
+margin-left: 6rem;
 
+    }
+     .images img {
+    height: 80%;
+    width: 25%;
+    padding-right: 1.5rem;    
+}
+ }
+@media (max-width:425px) {
+    .images{
+        display: none;
+    }
+}

@@ -1,8 +1,9 @@
 .story
 {
     background-color: #313131;
-    height: 70vh;
+    height: 100vh;
      font-family: "Edu NSW ACT Hand Pre", cursive;
+     margin-top: -30rem;
 
 }
 .pt-5{
@@ -11,4 +12,27 @@
     padding-right: 5rem !important;
     line-height: 250%;
 }
+.storyText{
+    padding-top: 15em;
+}
+@media (min-width:426px) and (max-width:768px) {
+    .story
+{
 
+   height: 140vh;
+
+}
+}
+@media (max-width:425px) {
+  .story
+{
+    font-size: 0.8rem;
+    height: 100vh;
+    margin-top: 0px !important;
+    padding: 0rem !important;
+    text-align: justify;
+}   
+.storyText{
+    padding: 0.5rem !important;
+}
+}
