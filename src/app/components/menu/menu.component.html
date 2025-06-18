@@ -1,0 +1,22 @@
+<div class="menu text-light d-flex flex-column justify-content-center align-items-center ">
+    <h1 class="text-center pt-5">Our Menu</h1>
+    <p class="fs-5 px-5 mx-5 pt-3">Explore our handcrafted menu filled with fresh ingredients, bold flavors, and dishes
+        made with love. Each dish on our menu is prepared with authentic spices, fresh ingredients, and a passion for
+        cooking. </p>
+    <div class="d-flex pizzaImages justify-content-around w-100 mt-4">
+        <img [src]="pizzaImageSrc" alt="Pizza Image" class=" mt-1 pizza " data-aos="fade-right" data-aos-duration="3000"
+            (click)="selectItem('pizza')">
+
+        <img [src]="centerImageSrc" alt="Pasta Image" class=" mt-1 " data-aos="zoom-in-up" data-aos-duration="3000">
+
+        <img [src]="burgerImageSrc" alt="Burger Image" class=" mt-1 burger " data-aos="fade-left"
+            data-aos-duration="3000" (click)="selectItem('burger')">
+
+    </div>
+    <p *ngIf="centerImageSrc == '/Menu/pizza.png'">"Crispy, cheesy, and bursting with flavor — our pizzas are a slice of happiness!"</p>
+    <p *ngIf="centerImageSrc == '/Menu/burger.png'">Get messy with our juicy, loaded burgers – stacked and packed with
+        flavor!</p>
+
+    <p *ngIf="centerImageSrc == '/Menu/Pasta.png'">Dive into rich, creamy pasta dishes that bring Italy to your plate.</p>
+        <button class="px-5 py-2 rounded text-light mb-5 border-0">See All</button>
+</div>

@@ -1,0 +1,28 @@
+.menu
+{
+    background-color: #1f1f1f;
+     font-family: "Edu NSW ACT Hand Pre", cursive;
+     padding-top: 10rem;
+ margin-top: -10rem;
+}
+
+
+.mx-5{
+    margin-left: 9rem !important;
+    margin-right: 9rem !important;
+}
+.pizza , .burger{
+    filter: grayscale(100%);
+    width: 15rem;
+    margin-bottom: 5rem
+}
+button{
+    background-color: var(--primary-color);
+    box-shadow:0px 0px 16px var(--secandary-color) ;
+}
+button:hover{
+    background-color: transparent;
+    border: var(--primary-color) 2px solid !important;
+    color: var(--primary-color);
+    box-shadow: none;
+}
